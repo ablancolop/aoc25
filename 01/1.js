@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-const input = fs.readFileSync(`${process.argv[2]}.in`, 'utf8').toString().split('\n')
+const input = fs.readFileSync(process.argv[2], 'utf8').toString().split('\n')
 
 let pointer = 50
 let counter = 0
